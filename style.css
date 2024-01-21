@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(43, 73, 226);
+}
+
+
+
+nav{
+    background-color: rgb(130, 130, 223);
+    height: 15vh;
+    border-bottom: solid rgb(242, 242, 244) 10px;
+    display: flex;
+
+}
+
+h1{
+    font-family:sans-serif;
+    position: relative;
+    top: 5vh;
+    left: 80vh;
+    margin-left: 2vh;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+nav img{
+    position: relative;
+    left: 80vh;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+.drum{
+    position: relative;
+    top: 20vh;
+    left: 450px;
+    height: 300px;
+    width: 650px;
+    background-color: black;
+    border: solid white 5px;
+    border-radius: 20px;
+}
+
+button{
+    position: relative;
+    top: 1vh;
+    left: 5vh;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 3vh;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+
+button:hover{
+    background-color: rgb(221, 49, 49);
+    color: white;
+}
+
+.footer{
+    position: relative;
+    top: 30vh;
+    background-color: aqua;
+    height: 20vh;
+}
+
+.footer h2{
+    position: relative;
+    top: 5vh;
+    left: 100vh;
+    
+}
+
